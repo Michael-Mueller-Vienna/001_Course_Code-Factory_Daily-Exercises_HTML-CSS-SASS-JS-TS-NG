@@ -1,0 +1,42 @@
+
+
+body {
+    font-family: "Audiowide", sans-serif;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff200;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #ff8800;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+    transition: font-size 500ms ease 50ms;
+  }
+
+ /* li a {
+    transition-property: height;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; 
+ }
+  */
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #00ff3c;
+    font-size: 50px;
+  }
