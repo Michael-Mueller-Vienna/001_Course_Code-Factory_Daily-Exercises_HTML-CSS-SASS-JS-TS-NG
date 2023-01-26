@@ -1,17 +1,17 @@
-/* ALL IMPORTS*/
+/* SELEKTORS ClASS'S */
 .container {
   text-align: center;
   width: 80vw;
   padding-left: 3rem;
   padding-right: 3rem;
-  box-shadow: 1rem 1rem 1.2rem grey;
+  box-shadow: 1rem 1rem 1.25rem grey;
   margin: 3rem 3rem;
 }
 
 .hero {
   background-color: #f4f4f4;
   padding-bottom: 0.65rem;
-  padding-top: 0.65rem;
+  padding-top: 1.2rem;
 }
 
 .rating {
@@ -23,6 +23,7 @@
   text-align: left;
 }
 
+/* SELEKTORS ELEMENT*/
 p {
   color: #707070;
 }
@@ -33,10 +34,7 @@ li {
   padding-bottom: 0.3rem;
 }
 
-img {
-  width: 70vw;
-}
-
+/*SELEKTORS WEBSITE-SECTIONS*/
 footer {
   text-align: center;
 }
@@ -52,6 +50,7 @@ header {
   padding-top: 2rem;
 }
 
+/* SELEKTORS HEADLINES */
 h1 {
   color: #DB0038;
 }
@@ -67,4 +66,6 @@ h3 {
 h1 {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
