@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="L1jk2Q0kSaBHT-czSQ3p" name="Page-1">
+        <mxGraphModel dx="650" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Start&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Input=0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;fontSize=10;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Command go from left to right&amp;nbsp;&lt;br&gt;through any element(E) and proof:&lt;br&gt;N(1) = N(0) +1&lt;br&gt;With any iteration N grows +1&lt;br&gt;So second iteration&lt;br&gt;N2 = N1 +1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="250" width="260" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="YES" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="NO" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;So is E(x) = N(value)?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="480" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Proof&lt;br&gt;next E" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="12" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Proof next E in&lt;br&gt;unordered list" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="510" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="555" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Put E in new list&lt;br&gt;from left to right" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="510" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="If all E are sorted&lt;br&gt;END process and&lt;br&gt;finish ordered list" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="680" width="170" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

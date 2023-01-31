@@ -1,0 +1,19 @@
+Command go from left to right 
+through any element(E) and proof:
+N(1) = N(0) +1
+With any iteration N grows +1
+So second iteration
+N2 = N1 +1
+
+1. iteration
+N(1) = N(0) +1 = true E1(=1) command: take E1 as first E in new ordered list
+2. iteration
+N2 = N1 +1 = false E1(=1) not 2 - command: go to next E
+N2 = N1 +1 = false E2(=3) not 2 - command: go to next E
+N2 = N1 +1 = false E3(=5) not 2 - command: go to next E
+N2 = N1 +1 = false E4(=4) not 2 - command: go to next E
+N2 = N1 +1 = false E5(=5) not 2 - command: go to next E
+N2 = N1 +1 = false E6(=9) not 2 - command: go to next E
+N2 = N1 +1 = false E7(=6) not 2 - command: go to next E
+N2 = N1 +1 = false E8(=1) not 2 - command: go to next E
+N2 = N1 +1 = true E9(=2) command: take E9 as second E in new ordered list

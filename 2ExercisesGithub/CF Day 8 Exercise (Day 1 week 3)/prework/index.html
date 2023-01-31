@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-light">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-success">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+<a href="#" class="btn btn-success" role="button">This is a link</a>
+
+<br>
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary">Default button</button>
+<button type="button" class="btn btn-success btn-sm">Small button</button>
+
+<br>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Nickname</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>John</td>
+            <td>Doe</td>
+            <td>Joe Dee</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Mariah</td>
+            <td>Carey</td>
+            <td>Mimi</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Michael</td>
+            <td>Jackson</td>
+            <td>Wacko Jacko</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<img src="boot.png" class="rounded float-start" alt="image aligned left">
+<img src="boot.png" class="rounded-circle float-end" alt="image aligned right">
+
+<br>
+
+<div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown link
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+ </div>
+
+ <br>
+
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="boot.png" class="d-block w-100" alt="slide 1">
+        </div>
+        <div class="carousel-item">
+            <img src="boot.png" class="d-block w-100" alt="slide 2">
+        </div>
+        <div class="carousel-item">
+            <img src="boot.png" class="d-block w-100" alt="slide 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        span class="visually-hidden">Next</span>
+    </button>
+ </div>
+ 
+<br>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    CodeFactory
+ </button>
+  
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">CodeFactory Modal Title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                This is some text from the modal
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <br>
+
+ <figure class="figure">
+    <img src="boot.png" class="figure-img img-fluid rounded" alt="image with caption">
+    <figcaption class="figure-caption">A caption for the image above.</figcaption>
+ </figure>
+
+</body>
+</html>

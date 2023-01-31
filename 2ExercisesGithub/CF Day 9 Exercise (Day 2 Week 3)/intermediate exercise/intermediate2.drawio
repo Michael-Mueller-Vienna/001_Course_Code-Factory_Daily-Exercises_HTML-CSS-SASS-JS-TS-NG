@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="8Bkhpa2wgMbdX9BxAz8O" name="Page-1">
+        <mxGraphModel dx="650" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Start&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Input money&lt;br&gt;to draw&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="160" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;All bills available x=280:&lt;br&gt;Int100 = x/100&lt;br&gt;Int50 = (x - Int100 x 100)/50&lt;br&gt;Int20 = (x - Int100 x 100 - Int50 x 50)/20&lt;br&gt;Int10 = (x - Int100 x 100 - Int50 x 50 - Int20 x 20)/10&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="290" width="360" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Output&lt;br&gt;Int100=2&lt;br&gt;Int50=1&lt;br&gt;Int20=1&lt;br&gt;Int10=1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="490" width="200" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

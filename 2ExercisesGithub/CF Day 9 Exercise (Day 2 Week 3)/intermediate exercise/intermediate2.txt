@@ -1,0 +1,27 @@
+All bills available x=280:
+Int100 = x/100
+Int50 = x - Int100 x 100
+Int20 = x - Int100 x 100 - Int50 x 50
+Int10 = x - Int100 x 100 - Int50 x 50 - Int20 x 20
+
+-------------------
+
+No Int50 x=280:
+
+Int100 = x/100 (200/100) = 2
+Int50 = block
+Int20 = x - int100 x100 (80/20) = 4
+
+------------------
+
+No Int10 x=60
+Int100 = x/100 = false = 0
+Int50 = x/50 = true = 1
+Int20 = (x-int50) /20 false = 0
+Int10 = block
+
+Int50 + Int10 = false = impossible
+Command: Alt go one Int down
+= Int20 = x/20 = 3
+
+---------------

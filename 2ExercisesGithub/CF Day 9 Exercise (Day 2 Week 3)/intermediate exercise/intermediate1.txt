@@ -1,0 +1,27 @@
+Intermediate
+
+W = (sec/604800)
+
+D = (sec/86400)
+
+h = (sec/3600) 
+	
+m = (sec/60;
+	
+s = (sec=1)
+
+
+Alg
+
+int week = X/604800
+int day = (X-(int_week x 604800)/86400
+int hour = (X-(int_week x 604800) - (int_day x 86400))/3600
+int min = (X-(int_week x 604800) - (int_day x 86400) - (int_hour x 3600))/60
+int sec = (X-(int_week x 604800) - (int_day x 86400) - (int_hour x 3600) - (int_min x 60))
+
+int week=X/604800;
+int day=(X%604800)/86400;
+int hour=((X%604800)%86400)/3600;
+int min=(((X%604800)%86400)/3600)/60;
+int sec=(((X%604800)%86400)/3600)%60;
+
