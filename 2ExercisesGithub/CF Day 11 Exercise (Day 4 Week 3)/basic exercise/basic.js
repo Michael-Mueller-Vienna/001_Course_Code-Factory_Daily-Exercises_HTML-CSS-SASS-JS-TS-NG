@@ -1,11 +1,19 @@
 //exercise 1
 
+
+let paragraph1 = document.getElementById("text1")
+let paragraph11 = document.getElementById("text11")
+
+
 function getWeather() {
     let temp = Math.random() * 30 - 5;
     if (temp <= 10) {
       console.log("The weather is cold.");
+      paragraph1.innerHTML="The weather is cold.";
     } else {
       console.log("The weather is moderate.");
+      paragraph11.innerHTML="The weather is moderate.";
+
     }
   }
   
@@ -20,12 +28,13 @@ function getWeather() {
   //exercise 2
 
   let favoriteFoods = ["pizza", "hamburger", "ice cream", "chocolate"];
+  let paragraph2 = document.getElementById("text2")
 
 function randomFood() {
   let randomIndex = Math.floor(Math.random() * favoriteFoods.length);
   return favoriteFoods[randomIndex];
 }
-
+  paragraph2.innerHTML=randomFood();
   console.log(randomFood());
 
 randomFood();

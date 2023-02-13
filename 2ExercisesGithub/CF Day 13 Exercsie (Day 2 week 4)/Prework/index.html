@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--EASY EX-->
+
+    <button onclick="printDate()">The time is?</button>
+    <p id="demo"></p>
+    <script>
+    function printDate(){
+        document.getElementById('demo').innerHTML=Date();
+    }
+    </script>
+
+    <br>
+    <br>
+
+    <!--FUSION EX 2-->
+
+    <div id="result">Sum this numbers: 
+        <form name="sum">
+          <input type="text" name="number_one" value="0">
+          <input type="text" name="number_two" value="0">
+          <input type="submit" value="submit" onClick="return submitData()">
+        </form>
+      </div>
+    <script>
+        function submitData() {
+      var number_one = document.forms["sum"]["number_one"].value;
+      var number_two = document.forms["sum"]["number_two"].value;
+ 
+      /*you must convert the variables into numbers, otherwise the + operator will concatenate them as strings*/
+      var sum = Number(number_one) + Number(number_two);
+  
+      var result = document.getElementById('result');
+ 
+      result.innerHTML = '<h2>The sum of the numbers is ' + sum + ' </h2>';
+    }
+    </script>
+
+    <br>
+    <br>
+
+    <h1>DOM Level 2 Event Listener</h1>
+    <input type="submit" id="demo" />
+
+    <script>
+      function showMessage() {
+        document.write("Hello from the Browser");
+      }
+
+      var elementNode = document.getElementById('demo');
+      elementNode.addEventListener('click', showMessage, false);
+    </script>
+</body>
+</html>

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link  rel='stylesheet' type='text/css'  href='exercise1.css'>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 
 
@@ -19,13 +20,14 @@
     <div class="container">
 
         <div class="header+hero">
+
     
 <header>
 
-<h1>Recipes</h1>
+<h1>Steak and Friends - Your Steakhouse</h1>
 
 <p>
-    A great meal has at its heart a ribeye steak medium rare.
+    Was es im Leben eines jeden Mannes braucht!
 
 </p>
 
@@ -35,9 +37,14 @@
 <hero>
 
     <div class="hero">
-        <img src="https://img.freepik.com/free-photo/grilled-beef-steak-dark-wooden-surface_1150-44344.jpg">
-        <h3>RECIPES WE LOVE</h3>
-        <h2>The Best Ribeye</h2>
+        <swiper-container class="Navi1" navigation="true" pagination="true" scrollbar="true">
+            <swiper-slide><img src="food.jpg"></swiper-slide>
+            <swiper-slide><img src="https://cdn.pixabay.com/photo/2020/04/27/05/30/roast-5098185_1280.jpg"></swiper-slide>
+            <swiper-slide><img src="https://cdn.pixabay.com/photo/2021/06/20/16/21/steak-6351455_1280.jpg"></swiper-slide>
+            ...
+          </swiper-container>
+        <h3>Ribeye.</h3>
+        <h2>Melde Dich, Wir servieren das Beste!</h2>
     </div>
 
 </hero>
@@ -88,7 +95,48 @@
 
 </footer>
 
+<swiper-container class="Test2" slides-per-view="2" speed="500" loop="true" css-mode="true">
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    ...
+  </swiper-container>
+  
+  <button>Slide Next</button>
+  
+  <script>
+    const swiperEl = document.querySelector('.Test2');
+    const buttonEl = document.querySelector('button');
+  
+    buttonEl.addEventListener('click', () => {
+      swiperEl.swiper.slideNext();
+    });
+  </script>
+
+<swiper-container class="Test1">
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    <swiper-slide><img src="food.jpg"></swiper-slide>
+    ...
+  </swiper-container>
+  
+  <script>
+    const swiperEl1 = document.querySelector('.Test1');
+  
+    swiperEl1.addEventListener('progress', (event) => {
+      const [swiper, progress] = event.detail;
+    });
+  
+    swiperEl1.addEventListener('slidechange', (event) => {
+      console.log('slide changed');
+    });
+  </script>
+  
+
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
 </body>
 </html>

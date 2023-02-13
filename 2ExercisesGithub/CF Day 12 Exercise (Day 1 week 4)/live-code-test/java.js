@@ -15,7 +15,7 @@ console.log(max)
 
 function getWeather() {
     let temp = Math.floor(Math.random() * 45 - 5);
-    console.log(temp)
+    console.log(temp);
     let paragraph = document.getElementById("text")
     let forecast = document.getElementById("forecast")
     console.log(text)
