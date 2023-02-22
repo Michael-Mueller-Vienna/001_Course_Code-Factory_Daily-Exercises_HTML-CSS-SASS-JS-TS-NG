@@ -1,0 +1,12 @@
+
+    <div *ngFor="let val of carData">
+        <div class="card" style="width: 18rem;">
+            <img src="{{val.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{val.make}}, {{val.model}}</h5>
+              <p class="card-text">{{val.year}}, {{val.color}}, {{val.mileage}}, {{val.owner}}</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    

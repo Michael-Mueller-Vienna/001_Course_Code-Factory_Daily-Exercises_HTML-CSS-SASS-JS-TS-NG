@@ -1,0 +1,15 @@
+/*        
+
+ * This is the JavaScript file that need to be tested through jasmine  
+
+ * Below is the helloworld function that will return 'Hello World'
+
+ *          
+
+ */
+
+let greetings = function () {
+
+    return 'Happy Coding';
+
+};
