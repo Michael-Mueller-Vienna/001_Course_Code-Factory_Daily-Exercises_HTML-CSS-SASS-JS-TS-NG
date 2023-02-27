@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="1Wiu906tGlGhgYfp5gYL" name="Page-1">
+        <mxGraphModel dx="650" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="20" width="610" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="NAVBAR (D)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="20" width="610" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="HERO 4 (PIC WHICH MATCHES THEME OF SUBSIDE)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="80" width="610" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="240" width="570" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="FOOTER (D)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="600" width="610" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="270" width="520" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="CONTACT FORM EMAIL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="430" width="520" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="INSTAGRAM SYMBOL&lt;br&gt;AS BUTTON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="290" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="FACEBOOK SYMBOL&lt;br&gt;AS BUTTON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="290" width="210" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
